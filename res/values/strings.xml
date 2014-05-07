@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">Dialer Alpha Themer</string>
+    <string name="launcher_name">Dialer Alpha Settings</string>
+    <string name="settings_header">Color Preference</string>
+
+</resources>

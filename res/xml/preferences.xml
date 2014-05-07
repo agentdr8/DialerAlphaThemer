@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <de.robv.android.xposed.library.ui.TextViewPreference
+        android:selectable="false"
+        android:title="@string/settings_header" />
+
+    <de.robv.android.xposed.library.ui.SeparatorPreference height="3" />
+
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        alphaSlider="true"
+        showCheckbox="true"
+        android:defaultValue="#FFFFFFFF"
+        android:key="color"
+        android:summary="Color selection for dialer alpha characters"
+        android:title="Alphabet Color" />
+
+</PreferenceScreen>
